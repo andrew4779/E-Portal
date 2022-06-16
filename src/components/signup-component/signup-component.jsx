@@ -71,6 +71,7 @@ const SignupComponent = ({}) => {
                 level
               );
 
+              
               console.log(user);
             } catch (error) {
               console.log(error.message);
