@@ -37,6 +37,7 @@ const CheckoutComponent = () => {
     onClose: () => alert("You haven't completed your payment!!"),
   };
 
+  
   return (
     <CheckoutComponentContainer>
       <Heading mb={5} textAlign="center">PAYMENT PAGE</Heading>
