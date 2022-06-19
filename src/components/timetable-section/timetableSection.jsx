@@ -14,7 +14,7 @@ import {
 
 const TimetableSection = () => {
   const [isEditing, setIsEditing] = useState(false);
-   const [isLessThan800] = useMediaQuery("(max-width: 800px)");
+  const [isLessThan800] = useMediaQuery("(max-width: 800px)");
 
   return (
     <Table
@@ -40,11 +40,11 @@ const TimetableSection = () => {
       <Thead>
         <Tr>
           <Th>Time</Th>
-          <Th >Mon</Th>
-          <Th >Tues</Th>
-          <Th >Wed</Th>
-          <Th >Thurs</Th>
-          <Th >Fri</Th>
+          <Th>Mon</Th>
+          <Th>Tues</Th>
+          <Th>Wed</Th>
+          <Th>Thurs</Th>
+          <Th>Fri</Th>
         </Tr>
       </Thead>
       <Tbody>
