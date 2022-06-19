@@ -7,6 +7,7 @@ import {
 } from "./courselist.styles";
 import { Button, Text } from "@chakra-ui/react";
 
+
 const CourseList = () => {
   const [regCourses, setRegCourses] = useState([]);
    const [isEditing, setIsEditing] = useState(false);
