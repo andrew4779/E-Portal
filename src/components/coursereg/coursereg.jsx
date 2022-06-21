@@ -217,4 +217,5 @@ const CourseRegSection = () => {
   );
 };
 
+
 export default CourseRegSection;
