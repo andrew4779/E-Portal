@@ -1,9 +1,8 @@
-Unicomp is a university school portal.
+This is a university school portal.
 
 Features:
 Student Registration
 Course Registration
-Payment Portal
 
 Frameworks:
 :React JS

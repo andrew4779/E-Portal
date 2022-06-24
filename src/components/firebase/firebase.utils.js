@@ -14,6 +14,7 @@ const config = {
   measurementId: "G-9KBC23FKDP",
 };
 
+
 export const createUserProfileDocument = async (user, matricno, name, dept, level) => {
   if (!user) return;
 
