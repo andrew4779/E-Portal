@@ -32,5 +32,4 @@ const AcademicsPage = ({ currentUser, setCurrentUser}) => {
     </>
   );
 };
-
 export default AcademicsPage;
