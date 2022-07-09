@@ -16,7 +16,7 @@ const PaymentPage = ({ currentUser, setCurrentUser}) => {
               <Text>Departmental Dues</Text>
               <span>$50</span>
             </div>
-            <Link href="/payment/checkout">
+            {/* <Link href="/payment/checkout"> */}
               <Button
                 rightIcon={<ExternalLinkIcon />}
                 colorScheme="teal"
@@ -25,13 +25,13 @@ const PaymentPage = ({ currentUser, setCurrentUser}) => {
               >
                 PAY NOW
               </Button>
-            </Link>
+            {/* </Link> */}
 
             <div className="payment-row">
               <Text>Faculty Dues</Text>
               <span>$100</span>
             </div>
-            <Link href="/payment/checkout">
+            {/* <Link href="/payment/checkout"> */}
               <Button
                 rightIcon={<ExternalLinkIcon />}
                 colorScheme="teal"
@@ -40,13 +40,13 @@ const PaymentPage = ({ currentUser, setCurrentUser}) => {
               >
                 PAY NOW
               </Button>
-            </Link>
+            {/* </Link> */}
 
             <div className="payment-row">
               <Text>Tuition Fees</Text>
               <span>$1000</span>
             </div>
-            <Link href="/payment/checkout">
+            {/* <Link href="/payment/checkout"> */}
               <Button
                 rightIcon={<ExternalLinkIcon />}
                 colorScheme="teal"
@@ -54,7 +54,7 @@ const PaymentPage = ({ currentUser, setCurrentUser}) => {
               >
                 PAY NOW
               </Button>
-            </Link>
+            {/* </Link> */}
           </PaymentContainer>
         </Layout>
       ) : (
