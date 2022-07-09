@@ -53,8 +53,6 @@ const PaymentPage = ({ currentUser, setCurrentUser}) => {
                 size="lg"
               >
                 PAY NOW
-
-                
               </Button>
             </Link>
           </PaymentContainer>
