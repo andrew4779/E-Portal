@@ -9,6 +9,10 @@ import { PaymentContainer } from "./payment-page.styles";
 const PaymentPage = ({ currentUser, setCurrentUser}) => {
   return (
     <>
+
+
+
+    
       {currentUser ? (
         <Layout currentUser={currentUser} setCurrentUser={setCurrentUser}>
           <PaymentContainer>
